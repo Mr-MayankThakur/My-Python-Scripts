@@ -11,6 +11,7 @@ __date__ = "18-01-2019"
 
 import os
 import importlib
+import glob
 
 base_template = """# My Python Scripts ![](https://img.shields.io/github/repo-size/irotect/My-Python-Scripts.svg)
 
@@ -52,7 +53,7 @@ Date Updated: **{date}**
 def list_files():
     file_list = []
     try:
-        for entry in os.listdir("."):
+        for entry in glob.glob('**/*.py', recursive=True):
             if os.path.isfile(entry) and entry.__contains__(".py") and not entry.__contains__("__init__"):
                 file_list.append(entry)
                 print("Found python script {}".format(entry))
@@ -67,9 +68,17 @@ if __name__ == "__main__":
         exit("No script Found, Exiting...")
     doc_data = []
     for file in files:
-        blob = importlib.import_module(file.replace(".py", ""))
+        blob = importlib.import_module(file.replace(".py", "").replace('/', '.'))
+
+        # check if file has proper formatted information
+        try:
+            script_name =  blob.__script_name__
+        except:
+            continue
+
         doc_data.append(single_template.format(fname=file, sname=blob.__script_name__, ver=blob.__version__, author=blob.__author__, date=blob.__date__, docstring=blob.__doc__))
         print("Added {}".format(file))
 
     with open("../README.md", "w") as readme:
         readme.write(base_template.format(entry=" ".join(doc_data)))
+
