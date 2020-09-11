@@ -43,11 +43,11 @@ class Window(QtWidgets.QMainWindow):
 
         self.ui.label_result.setText("Answer = {}".format(answer))
 
+if __name__ == "__main__":
+    app = QtWidgets.QApplication([])
 
-app = QtWidgets.QApplication([])
+    application = Window()
 
-application = Window()
+    application.show()
 
-application.show()
-
-sys.exit(app.exec())
+    sys.exit(app.exec())
