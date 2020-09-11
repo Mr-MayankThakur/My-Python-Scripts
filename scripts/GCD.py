@@ -11,8 +11,8 @@ __version__ = "0.1.0"
 __author__ = "Mayank Thakur"
 __date__ = "27-02-2020"
 
-def gcd(a, b):
 
+def gcd(a, b):
     if 0 in [a,b]:
         return max([a,b])
 
