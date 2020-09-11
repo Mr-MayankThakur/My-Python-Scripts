@@ -86,6 +86,24 @@ Requirements:
 
 
 ```
+ 
+## <a href='scripts/Deterministic_Finite_Automata/Generalized_DFA.py'>Deterministic Finite Automata Generator</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/irotect/My-Python-Scripts/scripts/Deterministic_Finite_Automata/Generalized_DFA.py.svg)
+
+Author: **Mayank Thakur**
+
+Date Updated: **15-08-2020**
+
+```Bash
+
+Generates a DFA machine from the given state-transition matrix and other info
+
+Requirements:
+    -> Python 3.0 or higher
+
+Usage:
+    -> Simply run this script with python and follow on screen instructions.
+
+```
 
 
 ## Contributing
