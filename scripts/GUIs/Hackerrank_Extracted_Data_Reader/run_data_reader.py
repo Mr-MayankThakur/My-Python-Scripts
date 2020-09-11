@@ -132,11 +132,11 @@ class Window(QtWidgets.QMainWindow):
         except:
             pass
 
+if __name__ == "__main__":
+    app = QtWidgets.QApplication([])
 
-app = QtWidgets.QApplication([])
+    application = Window()
 
-application = Window()
+    application.show()
 
-application.show()
-
-sys.exit(app.exec())
+    sys.exit(app.exec())
