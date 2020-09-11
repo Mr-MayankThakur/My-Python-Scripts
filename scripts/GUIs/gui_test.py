@@ -2,10 +2,11 @@ from PyQt5 import QtWidgets, uic
 
 import sys
 
-app = QtWidgets.QApplication([])
+if __name__ == "__main__":
+    app = QtWidgets.QApplication([])
 
-win = uic.loadUi("calci.ui")  # .ui file location here
+    win = uic.loadUi("calci.ui")  # .ui file location here
 
-win.show()
+    win.show()
 
-sys.exit(app.exec())
+    sys.exit(app.exec())
