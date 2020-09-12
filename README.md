@@ -58,19 +58,6 @@ Usage:
 
 ```
  
-## <a href='scripts/readme_generator.py'>Readme.md Generator</a> <sub>(0.1.1)</sub> ![](https://img.shields.io/github/size/irotect/My-Python-Scripts/scripts/readme_generator.py.svg)
-
-Author: **Mayank Thakur**
-
-Date Updated: **18-01-2019**
-
-```Bash
-
-This script automatically generates GitHub styled Readme.md (markdown file)
-from the docstrings and other info from the files present in the '/scripts'.
-
-```
- 
 ## <a href='scripts/GCD.py'>Greatest Common Divisor (Euclidean Algorithm)</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/irotect/My-Python-Scripts/scripts/GCD.py.svg)
 
 Author: **Mayank Thakur**
