@@ -74,7 +74,62 @@ Requirements:
 
 ```
  
-## <a href='scripts/Deterministic_Finite_Automata/Generalized_DFA.py'>Deterministic Finite Automata Generator</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Deterministic_Finite_Automata/Generalized_DFA.py.svg)
+## <a href='scripts/Finite_Automata/0_1_counting_machine.py'>Machine counting total 0s and 1s</a> <sub>(1.0.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Finite_Automata/0_1_counting_machine.py.svg)
+
+Author: **Mayank Thakur**
+
+Date Updated: **12-09-2020**
+
+```Bash
+
+Machine which counts the total number of 1s and 0s in the given string over the input alphabets {0, 1}.
+
+Requirements:
+    -> Python 3.0 or higher
+
+Usage:
+    -> Simply run this script with python and follow on screen instructions.
+
+```
+ 
+## <a href='scripts/Finite_Automata/Deterministic_Finite_Automata/Accept_Binary_MOD_3.py'>DFA accepting Binary Numbers Divisible by 11 (3 in decimal)</a> <sub>(1.0.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Finite_Automata/Deterministic_Finite_Automata/Accept_Binary_MOD_3.py.svg)
+
+Author: **Mayank Thakur**
+
+Date Updated: **12-09-2020**
+
+```Bash
+
+DFA machine which accepts binary numbered strings divisible by 3 ie. over the input alphabets {0, 1}.
+
+Requirements:
+    -> Python 3.0 or higher
+
+Usage:
+    -> Simply run this script with python and follow on screen instructions.
+
+```
+ 
+## <a href='scripts/Finite_Automata/Deterministic_Finite_Automata/Accept_Decimal_MOD_2.py'>DFA accepting Decimal Numbers Divisible by 2</a> <sub>(1.0.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Finite_Automata/Deterministic_Finite_Automata/Accept_Decimal_MOD_2.py.svg)
+
+Author: **Mayank Thakur**
+
+Date Updated: **12-09-2020**
+
+```Bash
+
+DFA machine which accepts Decimal numbers divisible by 2
+ie. over the input alphabets {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+
+Requirements:
+    -> Python 3.0 or higher
+
+Usage:
+    -> Simply run this script with python and follow on screen instructions.
+
+```
+ 
+## <a href='scripts/Finite_Automata/Deterministic_Finite_Automata/Generalized_DFA.py'>Deterministic Finite Automata Generator</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Finite_Automata/Deterministic_Finite_Automata/Generalized_DFA.py.svg)
 
 Author: **Mayank Thakur**
 
@@ -83,6 +138,42 @@ Date Updated: **15-08-2020**
 ```Bash
 
 Generates a DFA machine from the given state-transition matrix and other info
+
+Requirements:
+    -> Python 3.0 or higher
+
+Usage:
+    -> Simply run this script with python and follow on screen instructions.
+
+```
+ 
+## <a href='scripts/Finite_Automata/Deterministic_Finite_Automata/Accept_ending_with_101.py'>DFA accepting string ending with 101</a> <sub>(1.0.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Finite_Automata/Deterministic_Finite_Automata/Accept_ending_with_101.py.svg)
+
+Author: **Mayank Thakur**
+
+Date Updated: **12-09-2020**
+
+```Bash
+
+DFA machine which accepts strings ending with 101 over the input alphabets {0, 1}.
+
+Requirements:
+    -> Python 3.0 or higher
+
+Usage:
+    -> Simply run this script with python and follow on screen instructions.
+
+```
+ 
+## <a href='scripts/Finite_Automata/Deterministic_Finite_Automata/Accept_three_consecutive_one.py'>DFA Accepting Three Consecutive 1s</a> <sub>(1.0.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Finite_Automata/Deterministic_Finite_Automata/Accept_three_consecutive_one.py.svg)
+
+Author: **Mayank Thakur**
+
+Date Updated: **12-09-2020**
+
+```Bash
+
+DFA machine which accepts strings containing three consecutive 1s over the input alphabets {0, 1}.
 
 Requirements:
     -> Python 3.0 or higher
