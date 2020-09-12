@@ -6,7 +6,7 @@ This Repository is a collection of my python scripts.
 # Scripts
 
 
-## <a href='scripts/diamond_star_pattern.py'>Diamond pattern using asterisk</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/irotect/My-Python-Scripts/scripts/diamond_star_pattern.py.svg)
+## <a href='scripts/diamond_star_pattern.py'>Diamond pattern using asterisk</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/diamond_star_pattern.py.svg)
 
 Author: **Mayank Thakur**
 
@@ -24,7 +24,7 @@ Usage:
 
 ```
  
-## <a href='scripts/matrix_transpose.py'>Matrix Transposer</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/irotect/My-Python-Scripts/scripts/matrix_transpose.py.svg)
+## <a href='scripts/matrix_transpose.py'>Matrix Transposer</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/matrix_transpose.py.svg)
 
 Author: **Mayank Thakur**
 
@@ -38,7 +38,7 @@ ex. [[1,2,3],[4,5,6]] --> [[1, 4], [2, 5], [3, 6]]
 
 ```
  
-## <a href='scripts/m3u_to_mp4_converter.py'>M3U Playlist to Mp4 Converter Using FFMPEG</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/irotect/My-Python-Scripts/scripts/m3u_to_mp4_converter.py.svg)
+## <a href='scripts/m3u_to_mp4_converter.py'>M3U Playlist to Mp4 Converter Using FFMPEG</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/m3u_to_mp4_converter.py.svg)
 
 Author: **Mayank Thakur**
 
@@ -58,7 +58,7 @@ Usage:
 
 ```
  
-## <a href='scripts/GCD.py'>Greatest Common Divisor (Euclidean Algorithm)</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/irotect/My-Python-Scripts/scripts/GCD.py.svg)
+## <a href='scripts/GCD.py'>Greatest Common Divisor (Euclidean Algorithm)</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/GCD.py.svg)
 
 Author: **Mayank Thakur**
 
@@ -74,7 +74,7 @@ Requirements:
 
 ```
  
-## <a href='scripts/Deterministic_Finite_Automata/Generalized_DFA.py'>Deterministic Finite Automata Generator</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/irotect/My-Python-Scripts/scripts/Deterministic_Finite_Automata/Generalized_DFA.py.svg)
+## <a href='scripts/Deterministic_Finite_Automata/Generalized_DFA.py'>Deterministic Finite Automata Generator</a> <sub>(0.1.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Deterministic_Finite_Automata/Generalized_DFA.py.svg)
 
 Author: **Mayank Thakur**
 

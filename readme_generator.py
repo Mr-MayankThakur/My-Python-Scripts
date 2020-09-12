@@ -38,7 +38,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 """
 
 single_template = """
-## <a href='scripts/{fname}'>{sname}</a> <sub>({ver})</sub> ![](https://img.shields.io/github/size/irotect/My-Python-Scripts/scripts/{fname}.svg)
+## <a href='scripts/{fname}'>{sname}</a> <sub>({ver})</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/{fname}.svg)
 
 Author: **{author}**
 
@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
         # check if file has proper formatted information
         try:
-            script_name =  blob.__script_name__
+            script_name = blob.__script_name__
         except:
             continue
 
