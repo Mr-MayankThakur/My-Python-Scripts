@@ -92,6 +92,31 @@ Usage:
 
 ```
  
+## <a href='scripts/Finite_Automata/Mealy_Machine/2s_complement_of_binary.py'>Mealy Machine for 2's Complement of Binary No.</a> <sub>(1.0.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Finite_Automata/Mealy_Machine/2s_complement_of_binary.py.svg)
+
+Author: **Mayank Thakur**
+
+Date Updated: **22-09-2020**
+
+```Bash
+
+This Finite Autamata, Mealy machine generates 2's complement of the given
+Binary Number while ignoring the carry operation.
+
+Steps:
+    1. reverse the string.
+    2. return same input untill first 1 is detected.
+    3. After detecting First 1 return complement of the remaining string.
+    4. again reverse the output and present to the user
+
+Requirements:
+    -> Python 3.0 or higher
+
+Usage:
+    -> Simply run this script with python and follow on screen instructions.
+
+```
+ 
 ## <a href='scripts/Finite_Automata/Deterministic_Finite_Automata/Accept_Binary_MOD_3.py'>DFA accepting Binary Numbers Divisible by 11 (3 in decimal)</a> <sub>(1.0.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Finite_Automata/Deterministic_Finite_Automata/Accept_Binary_MOD_3.py.svg)
 
 Author: **Mayank Thakur**

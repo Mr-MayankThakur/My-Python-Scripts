@@ -21,34 +21,6 @@ __author__ = "Mayank Thakur"
 __date__ = "22-09-2020"
 
 
-def complement_output(input_string):
-    """
-    This function outputs the complement of the input string for binary numbers.
-    ie.
-    1 -> 0
-    0 -> 1
-
-    Args:
-        input_string: str
-
-    Returns: str
-
-    """
-    current_input = input_string[0]
-
-    if current_input == '1':
-        output = '0'
-    elif current_input == '0':
-        output = '1'
-    else:
-        raise TypeError(f"Invalid input {current_input}")
-
-    if len(input_string[1:]) == 0:
-        return output
-    else:
-        return output + complement_output(input_string[1:])
-
-
 class MealyMachineState:
     """
     This class's sole purpose is to abstract away the repeating conditional transition statements in all states.
@@ -58,11 +30,10 @@ class MealyMachineState:
 
     def __init__(self, state_name, final=False):
         """
-        Custom DFA State Constructor
+        Custom Mealy Machine State Constructor
 
         Args:
             state_name: str
-            state_output: str
             final: bool, defines if this state should be considered as final or not.
         """
 
@@ -119,7 +90,7 @@ class MealyMachineState:
         try:
             next_state = self.transition_dict[current_input][0]
             transition_output = self.transition_dict[current_input][1]
-            return next_state.run(input_string[1:], current_output+transition_output)
+            return next_state.run(input_string[1:], current_output + transition_output)
         except KeyError:
             raise (KeyError("Invalid String Entered: {}".format(input_string[0])))
 
