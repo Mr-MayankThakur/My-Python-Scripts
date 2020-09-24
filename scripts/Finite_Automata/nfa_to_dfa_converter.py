@@ -30,6 +30,7 @@ Note:
     state name should not have space in it
     write space seperated transition states if there are more than 1
     in case of no transition use empty set
+    for defining all the states we are going to use frozenset because they are hashable
 """
 
 
@@ -160,6 +161,13 @@ def input_transition_dict():
     return transition_dict, alphabets, final_states, start_state
 
 
+def set_of_frozenset_to_list(sofs):
+    output_list = []
+    for fs in sofs:
+        output_list.append(str(list(fs)))
+    return output_list
+
+
 if __name__ == "__main__":
 
     while True:
@@ -188,5 +196,5 @@ if __name__ == "__main__":
 
     print_transition_dict(dfa_transition, alphabets)
     print()
-    print(f"DFA_states: {dfa_states}")
-    print(f"final_DFA_states = {dfa_final_states}")
+    print(f"DFA_states: {set_of_frozenset_to_list(dfa_states)}")
+    print(f"final_DFA_states = {set_of_frozenset_to_list(dfa_final_states)}")
