@@ -92,6 +92,24 @@ Usage:
 
 ```
  
+## <a href='scripts/Finite_Automata/nfa_to_dfa_converter.py'>NDFA to DFA Converter</a> <sub>(1.0.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Finite_Automata/nfa_to_dfa_converter.py.svg)
+
+Author: **Mayank Thakur**
+
+Date Updated: **24-09-2020**
+
+```Bash
+
+Non Deterministic Finite Automata to Deterministic Finite Automata converter.
+
+Requirements:
+    -> Python 3.0 or higher
+
+Usage:
+    -> Simply run this script with python and follow on screen instructions.
+
+```
+ 
 ## <a href='scripts/Finite_Automata/Mealy_Machine/2s_complement_of_binary.py'>Mealy Machine for 2's Complement of Binary No.</a> <sub>(1.0.0)</sub> ![](https://img.shields.io/github/size/Mr-MayankThakur/My-Python-Scripts/scripts/Finite_Automata/Mealy_Machine/2s_complement_of_binary.py.svg)
 
 Author: **Mayank Thakur**
