@@ -15,12 +15,12 @@ __date__ = "24-09-2020"
 
 """
 General Structure of input of transition table:
-    {
-        <state_name>:{
-                input_alphabet1: {transition state}
-                input_alphabet1: {transition state}
+transition_dict    {
+        q0:{
+                0: frozenset{q0, q1}
+                1: {q0}
             }
-        <state_name>:{
+        <state>:{
                 input_alphabet1: {transition state}
                 input_alphabet1: {transition state}
             }
@@ -32,7 +32,7 @@ Note:
     in case of no transition use empty set
 """
 
-
+#frozenset(q0, q1)
 def generate_state_output(transition_dict: dict, new_state: frozenset, input_alphabet: str):
     """
     This function generates the output of a new or existing state by taking union of
